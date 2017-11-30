@@ -40,7 +40,7 @@ noid = [0, 1, 2, 3, 8, 9, 12, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24]
 
 
 html =  u"""<!DOCTYPE html><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
-<title>Faces of Facebook</title> <head> 
+<title>Faces of Face's</title> <head> 
 <style class="cp-pen-styles"> 
 body, 
 html {
@@ -213,10 +213,10 @@ font-size:5px;
 
 <div class="contain">
 
-  <h1>Faces of Facebook</h1>
+  <h1>Faces of Face's</h1>
   
     <p> 
-  <span style="white-space:nowrap">Faces of Facebook</span> by <a style="white-space:nowrap" href="https://steemit.com/@murattatar">Murat Tatar</a>. Inspired by <a href="https://codepen.io/joshhunt/pen/LVQZRa">joshhunt</a></p>
+  <span style="white-space:nowrap">Faces of Face's</span> by <a style="white-space:nowrap" href="https://steemit.com/@murattatar">Murat Tatar</a>. Inspired by <a href="https://codepen.io/joshhunt/pen/LVQZRa">joshhunt</a></p>
   
 <div class="row__inner">""" 
 
