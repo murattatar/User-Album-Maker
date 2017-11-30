@@ -13,7 +13,7 @@ start = raw_input(u"Start Id: ")
 #fcnum = raw_input(u"Number of faces: ")
 #size = raw_input(u"Thumb size? ")
 size = 60
-fcnum = 89
+fcnum = 75
 
 if start =="": start = 4
 if fcnum =="": fcnum = 6*15-1
@@ -27,8 +27,8 @@ size = int(size)
 
 
 sli = unicode(str(size/2+2))
-bsli_x = unicode(str(size * 3.2))
-bsli_y = unicode(str(size / 2.2))
+bsli_x = unicode(str(size * 3.3))
+bsli_y = unicode(str(size / 2.1))
 
 size = unicode(str(size))
 
@@ -83,13 +83,13 @@ a:hover {
 }
 .contain {
 	width: auto;
-	margin-left: 7%;
-	margin-right: 7%;
+	margin-left: 8%;
+	margin-right: 8%;
 	
 }
 .row {
 	overflow: auto;
-	width: 83%;
+	width: 78%;
 	margin-right: auto;
 	margin-left: 50px;
 }
@@ -100,7 +100,7 @@ a:hover {
 	transition: 400ms transform, 400ms -webkit-transform;
 	font-size: 0;
 	white-space: normal;
-	margin: 20px 0;
+	margin: 40px 0;
 	padding-bottom: 10px;
 }
 .tile { 
@@ -254,7 +254,6 @@ html = html +u"""</div>
 
 o = open("FacesOfFaces.html","w"); o.write(html.encode("utf-8")); o.close()
 os.startfile("FacesOfFaces.html")
-
 
 
 
